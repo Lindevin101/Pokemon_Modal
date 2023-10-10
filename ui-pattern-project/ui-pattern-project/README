@@ -1,0 +1,36 @@
+# Pokemon Facts Project 
+
+## Overview
+
+This project takes random pokemons from an API, dispalying them within a box. Upon clicking on each image, a model with appear showing an intersting fact about that pokemon. 
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- Fetch API
+
+## Features
+
+- Fetches unique meals from the API
+- Displays pokemons in a grid layout within a box
+- Shows an intersting pokemon fact in a modal when clicked
+
+## Project Structure
+
+- `index.html`: Contains the HTML structure
+- `style.css`: Contains the styling
+- `script.js`: Contains the JavaScript logic
+
+### HTML Structure
+
+The HTML file contains a main container with multiple grid items. Each grid item is a div element that will display a meal.
+
+### JavaScript Logic
+
+The JavaScript file uses the Fetch API to get random pokemon from 'https://pokeapi.co/api/v2'. 
+
+## License
+
+This project is licensed under the MIT License.
